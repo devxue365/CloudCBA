@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Kingfisher (6.3.0)
+  - MJRefresh (3.5.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - Reachability (3.2)
+  - SwiftyJSON (5.0.1)
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4.3)
+  - Kingfisher (~> 6.3.0)
+  - MJRefresh (~> 3.5.0)
+  - Reachability (~> 3.2)
+  - SwiftyJSON (~> 5.0.1)
+  - XCGLogger (~> 7.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - MJRefresh
+    - ObjcExceptionBridging
+    - Reachability
+    - SwiftyJSON
+    - XCGLogger
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
+
+PODFILE CHECKSUM: 15eb941f8a0279fafa5beac1ca30b55b95b79890
+
+COCOAPODS: 1.10.1
