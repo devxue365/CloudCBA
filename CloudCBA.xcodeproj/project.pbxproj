@@ -19,6 +19,7 @@
 		E46BA18626326A9A005C8195 /* DXHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BA18226326A9A005C8195 /* DXHomeVC.swift */; };
 		E478A17B2632BF140020A38B /* DXHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478A1792632BF140020A38B /* DXHomeCell.swift */; };
 		E478A17C2632BF140020A38B /* DXHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E478A17A2632BF140020A38B /* DXHomeCell.xib */; };
+		E490B5A726369BD6008AB4DA /* DXText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490B5A626369BD6008AB4DA /* DXText.swift */; };
 		E4DCF5F02635584C00ABA63D /* DXMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF5EB2635584C00ABA63D /* DXMineVC.swift */; };
 		E4DCF5FB26355B4100ABA63D /* DXExamStuStateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF5FA26355B4100ABA63D /* DXExamStuStateVC.swift */; };
 		E4DCF5FE26355B5700ABA63D /* DXChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF5FD26355B5700ABA63D /* DXChangePasswordVC.swift */; };
@@ -46,6 +47,7 @@
 		E46BA18226326A9A005C8195 /* DXHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXHomeVC.swift; sourceTree = "<group>"; };
 		E478A1792632BF140020A38B /* DXHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXHomeCell.swift; sourceTree = "<group>"; };
 		E478A17A2632BF140020A38B /* DXHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DXHomeCell.xib; sourceTree = "<group>"; };
+		E490B5A626369BD6008AB4DA /* DXText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXText.swift; sourceTree = "<group>"; };
 		E4DCF5EB2635584C00ABA63D /* DXMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXMineVC.swift; sourceTree = "<group>"; };
 		E4DCF5FA26355B4100ABA63D /* DXExamStuStateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXExamStuStateVC.swift; sourceTree = "<group>"; };
 		E4DCF5FD26355B5700ABA63D /* DXChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXChangePasswordVC.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				15B7E5A6263594B3005DF942 /* DXAPI.swift */,
+				E490B5A626369BD6008AB4DA /* DXText.swift */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				15B7E5A32635943E005DF942 /* DXRequest.swift in Sources */,
 				E4DCF6262635665900ABA63D /* DXNavigationController.swift in Sources */,
 				E46BA16D26326458005C8195 /* AppDelegate.swift in Sources */,
+				E490B5A726369BD6008AB4DA /* DXText.swift in Sources */,
 				E4DCF5F02635584C00ABA63D /* DXMineVC.swift in Sources */,
 				E478A17B2632BF140020A38B /* DXHomeCell.swift in Sources */,
 				E46BA172263264B9005C8195 /* DXLoginVC.swift in Sources */,

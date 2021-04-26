@@ -20,13 +20,12 @@ class DXRequestManager: NSObject {
     
 }
 
-
 class DXRequest {
     /// GET请求
     /// - Parameters:
     ///   - url: 请求地址<String>
     ///   - parameters: 请求参数<Dictionary>
-    func get(
+    static func get(
         url: String,
         parameters: Dictionary<String, Any>,
         isSuccess: Bool,
@@ -34,23 +33,26 @@ class DXRequest {
         error: FailedBlock
     ) {
         AF.request(
-            "",
+            url,
             method: .get,
-            parameters: ["key" : "value"],
-            encoder: JSONParameterEncoder.default,
+            parameters: parameters,
+            encoding: URLEncoding.default,
             headers: nil,
             interceptor: nil
         )
-        .responseJSON { (json) in
+        .response{response in
+            print(response)
         }
-        
+        .responseJSON { (json) in
+            print(json)
+        }
     }
     
     /// POST请求
     /// - Parameters:
     ///   - url: 请求地址<String>
     ///   - parameters: 请求参数<Dictionary>
-    func post(
+    static func post(
         url: String,
         parameters: Dictionary<String, Any>,
         isSuccess: Bool,
@@ -58,15 +60,18 @@ class DXRequest {
         error: FailedBlock
     ) {
         AF.request(
-            "",
+            url,
             method: .post,
-            parameters: ["key" : "value"],
-            encoder: JSONParameterEncoder.default,
+            parameters: parameters,
+            encoding: JSONEncoding.default,
             headers: nil,
             interceptor: nil
         )
+        .response { json in
+            print(json)
+        }
         .responseJSON { json in
-            
+            print(json)
         }
     }
     
