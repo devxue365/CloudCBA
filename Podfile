@@ -10,7 +10,7 @@ target 'CloudCBA' do
   pod 'Alamofire', '~> 5.4.3'
   # 加载网络图片、缓存、下载
   pod 'Kingfisher', '~> 6.3.0'
-  # 数据转json
+  # 数据转 json
   pod 'SwiftyJSON', '~> 5.0.1'
   # 刷新数据和加载数据
   pod 'MJRefresh', '~> 3.5.0'
@@ -18,4 +18,6 @@ target 'CloudCBA' do
   pod 'Reachability', '~> 3.2'
   # 日志收集
   pod 'XCGLogger', '~> 7.0.1'
+  # PageView 框架
+  pod 'DNSPageView', '~> 2.1.0'
 end

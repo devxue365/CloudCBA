@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.4.3)
+  - DNSPageView (2.1.0)
   - Kingfisher (6.3.0)
   - MJRefresh (3.5.0)
   - ObjcExceptionBridging (1.0.1):
@@ -14,6 +15,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.4.3)
+  - DNSPageView (~> 2.1.0)
   - Kingfisher (~> 6.3.0)
   - MJRefresh (~> 3.5.0)
   - Reachability (~> 3.2)
@@ -23,6 +25,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DNSPageView
     - Kingfisher
     - MJRefresh
     - ObjcExceptionBridging
@@ -32,6 +35,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  DNSPageView: 4d77a61f49a5668ec330fb7bd620d81354371ea7
   Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
@@ -39,6 +43,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
 
-PODFILE CHECKSUM: 15eb941f8a0279fafa5beac1ca30b55b95b79890
+PODFILE CHECKSUM: 84173ed9cab8ad22f56cc99b6dad84367352bee4
 
 COCOAPODS: 1.10.1

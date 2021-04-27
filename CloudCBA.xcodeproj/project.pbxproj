@@ -19,10 +19,16 @@
 		E46BA18626326A9A005C8195 /* DXHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BA18226326A9A005C8195 /* DXHomeVC.swift */; };
 		E478A17B2632BF140020A38B /* DXHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478A1792632BF140020A38B /* DXHomeCell.swift */; };
 		E478A17C2632BF140020A38B /* DXHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E478A17A2632BF140020A38B /* DXHomeCell.xib */; };
+		E47F5AA82637A01900F01570 /* DXExamStuStateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F5AA62637A01900F01570 /* DXExamStuStateVC.swift */; };
+		E47F5ABE2637BD1300F01570 /* DXStuStateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F5ABD2637BD1200F01570 /* DXStuStateVC.swift */; };
+		E47F5AC22637DC3F00F01570 /* DXStuStateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F5AC02637DC3F00F01570 /* DXStuStateCell.swift */; };
+		E47F5AC32637DC3F00F01570 /* DXStuStateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47F5AC12637DC3F00F01570 /* DXStuStateCell.xib */; };
+		E47F5ACC2637F19000F01570 /* DXCorrectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F5ACA2637F19000F01570 /* DXCorrectVC.swift */; };
+		E47F5AD02637F1CA00F01570 /* DXPaperDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F5ACE2637F1CA00F01570 /* DXPaperDetailCell.swift */; };
+		E47F5AD12637F1CA00F01570 /* DXPaperDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47F5ACF2637F1CA00F01570 /* DXPaperDetailCell.xib */; };
 		E490B5A726369BD6008AB4DA /* DXText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490B5A626369BD6008AB4DA /* DXText.swift */; };
 		E490B5AB2636B87E008AB4DA /* DXUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490B5AA2636B87E008AB4DA /* DXUserInfo.swift */; };
 		E4DCF5F02635584C00ABA63D /* DXMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF5EB2635584C00ABA63D /* DXMineVC.swift */; };
-		E4DCF5FB26355B4100ABA63D /* DXExamStuStateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF5FA26355B4100ABA63D /* DXExamStuStateVC.swift */; };
 		E4DCF5FE26355B5700ABA63D /* DXChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF5FD26355B5700ABA63D /* DXChangePasswordVC.swift */; };
 		E4DCF604263561A100ABA63D /* DXExamPaperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF601263561A100ABA63D /* DXExamPaperVC.swift */; };
 		E4DCF61E263563B500ABA63D /* DXExamPaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF61C263563B500ABA63D /* DXExamPaperCell.swift */; };
@@ -48,10 +54,16 @@
 		E46BA18226326A9A005C8195 /* DXHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXHomeVC.swift; sourceTree = "<group>"; };
 		E478A1792632BF140020A38B /* DXHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXHomeCell.swift; sourceTree = "<group>"; };
 		E478A17A2632BF140020A38B /* DXHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DXHomeCell.xib; sourceTree = "<group>"; };
+		E47F5AA62637A01900F01570 /* DXExamStuStateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXExamStuStateVC.swift; sourceTree = "<group>"; };
+		E47F5ABD2637BD1200F01570 /* DXStuStateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXStuStateVC.swift; sourceTree = "<group>"; };
+		E47F5AC02637DC3F00F01570 /* DXStuStateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXStuStateCell.swift; sourceTree = "<group>"; };
+		E47F5AC12637DC3F00F01570 /* DXStuStateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DXStuStateCell.xib; sourceTree = "<group>"; };
+		E47F5ACA2637F19000F01570 /* DXCorrectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXCorrectVC.swift; sourceTree = "<group>"; };
+		E47F5ACE2637F1CA00F01570 /* DXPaperDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXPaperDetailCell.swift; sourceTree = "<group>"; };
+		E47F5ACF2637F1CA00F01570 /* DXPaperDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DXPaperDetailCell.xib; sourceTree = "<group>"; };
 		E490B5A626369BD6008AB4DA /* DXText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXText.swift; sourceTree = "<group>"; };
 		E490B5AA2636B87E008AB4DA /* DXUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXUserInfo.swift; sourceTree = "<group>"; };
 		E4DCF5EB2635584C00ABA63D /* DXMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXMineVC.swift; sourceTree = "<group>"; };
-		E4DCF5FA26355B4100ABA63D /* DXExamStuStateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXExamStuStateVC.swift; sourceTree = "<group>"; };
 		E4DCF5FD26355B5700ABA63D /* DXChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXChangePasswordVC.swift; sourceTree = "<group>"; };
 		E4DCF601263561A100ABA63D /* DXExamPaperVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXExamPaperVC.swift; sourceTree = "<group>"; };
 		E4DCF61C263563B500ABA63D /* DXExamPaperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXExamPaperCell.swift; sourceTree = "<group>"; };
@@ -190,6 +202,7 @@
 			children = (
 				E4DCF5F32635587400ABA63D /* ExamPaper */,
 				E4DCF5F22635587400ABA63D /* ExamStuState */,
+				E47F5AAE2637AA0400F01570 /* Correct */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -206,6 +219,50 @@
 			children = (
 				E478A1792632BF140020A38B /* DXHomeCell.swift */,
 				E478A17A2632BF140020A38B /* DXHomeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E47F5AA52637A01900F01570 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E47F5AA62637A01900F01570 /* DXExamStuStateVC.swift */,
+				E47F5ABD2637BD1200F01570 /* DXStuStateVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E47F5AA72637A01900F01570 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E47F5AC02637DC3F00F01570 /* DXStuStateCell.swift */,
+				E47F5AC12637DC3F00F01570 /* DXStuStateCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E47F5AAE2637AA0400F01570 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				E47F5AC92637F19000F01570 /* Controller */,
+				E47F5ACB2637F19000F01570 /* View */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
+		E47F5AC92637F19000F01570 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E47F5ACA2637F19000F01570 /* DXCorrectVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E47F5ACB2637F19000F01570 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E47F5ACE2637F1CA00F01570 /* DXPaperDetailCell.swift */,
+				E47F5ACF2637F1CA00F01570 /* DXPaperDetailCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,7 +308,8 @@
 		E4DCF5F22635587400ABA63D /* ExamStuState */ = {
 			isa = PBXGroup;
 			children = (
-				E4DCF5FA26355B4100ABA63D /* DXExamStuStateVC.swift */,
+				E47F5AA52637A01900F01570 /* Controller */,
+				E47F5AA72637A01900F01570 /* View */,
 			);
 			path = ExamStuState;
 			sourceTree = "<group>";
@@ -390,7 +448,9 @@
 			files = (
 				E478A17C2632BF140020A38B /* DXHomeCell.xib in Resources */,
 				E46BA15D26326354005C8195 /* LaunchScreen.storyboard in Resources */,
+				E47F5AC32637DC3F00F01570 /* DXStuStateCell.xib in Resources */,
 				E46BA15A26326354005C8195 /* Assets.xcassets in Resources */,
+				E47F5AD12637F1CA00F01570 /* DXPaperDetailCell.xib in Resources */,
 				E4DCF61F263563B500ABA63D /* DXExamPaperCell.xib in Resources */,
 				E46BA15826326353005C8195 /* Main.storyboard in Resources */,
 			);
@@ -448,6 +508,7 @@
 				15B7E5A32635943E005DF942 /* DXRequest.swift in Sources */,
 				E4DCF6262635665900ABA63D /* DXNavigationController.swift in Sources */,
 				E490B5AB2636B87E008AB4DA /* DXUserInfo.swift in Sources */,
+				E47F5ABE2637BD1300F01570 /* DXStuStateVC.swift in Sources */,
 				E46BA16D26326458005C8195 /* AppDelegate.swift in Sources */,
 				E490B5A726369BD6008AB4DA /* DXText.swift in Sources */,
 				E4DCF5F02635584C00ABA63D /* DXMineVC.swift in Sources */,
@@ -455,11 +516,14 @@
 				E46BA172263264B9005C8195 /* DXLoginVC.swift in Sources */,
 				E46BA16E26326458005C8195 /* SceneDelegate.swift in Sources */,
 				E46BA18626326A9A005C8195 /* DXHomeVC.swift in Sources */,
-				E4DCF5FB26355B4100ABA63D /* DXExamStuStateVC.swift in Sources */,
 				E4DCF5FE26355B5700ABA63D /* DXChangePasswordVC.swift in Sources */,
 				E4DCF604263561A100ABA63D /* DXExamPaperVC.swift in Sources */,
+				E47F5AD02637F1CA00F01570 /* DXPaperDetailCell.swift in Sources */,
+				E47F5AC22637DC3F00F01570 /* DXStuStateCell.swift in Sources */,
 				E4DCF61E263563B500ABA63D /* DXExamPaperCell.swift in Sources */,
 				E4DCF6292635669900ABA63D /* DXTabBarController.swift in Sources */,
+				E47F5ACC2637F19000F01570 /* DXCorrectVC.swift in Sources */,
+				E47F5AA82637A01900F01570 /* DXExamStuStateVC.swift in Sources */,
 				15B7E5A7263594B3005DF942 /* DXAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
